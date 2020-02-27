@@ -1,0 +1,6 @@
+go.sum
+.idea
+*/node_modules
+*.css
+frontend/dist/*.css
+frontend/dist/*.js

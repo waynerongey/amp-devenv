@@ -1,0 +1,29 @@
+{
+  "name": "amp-templates",
+  "version": "1.0.0",
+  "description": "Frontend build pipeline",
+  "private": true,
+  "scripts": {
+    "build": "webpack --config webpack.config.js && yarn purge",
+    "purge": "purgecss --css ./dist/main.css --content ./../templates/**/* --output ./dist",
+    "watch": "webpack --config webpack.config.js --watch"
+  },
+  "author": "Wayne Rongey",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.7.7",
+    "autoprefixer": "^9.7.3",
+    "babel-loader": "^8.0.6",
+    "bootstrap": "^4.3.1",
+    "css-loader": "^3.2.1",
+    "mini-css-extract-plugin": "^0.8.0",
+    "node-sass": "^4.13.0",
+    "postcss-loader": "^3.0.0",
+    "purgecss": "^2.0.6",
+    "sass-loader": "^8.0.0",
+    "style-loader": "^1.0.1",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "Application": "amp-templates",
+  "Domain": "localhost",
+  "Address": "localhost:8080",
+  "ReadTimeout": 10,
+  "WriteTimeout": 600,
+  "Templates": "templates",
+  "Static": "frontend/dist",
+  "AmpStylesFile": "frontend/dist/main.css",
+  "TimeOffset": 0,
+  "Production": false,
+  "Ssl": {
+    "Enabled": false
+  }
+}
